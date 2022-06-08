@@ -1,0 +1,39 @@
+
+nav{
+    background-color: rgb(23, 38, 58);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    border-top: #fff;
+}
+.logo{
+    padding: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 0px ;
+    float: left;
+    clear: both;
+}
+nav h1{
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #967245;
+}
+nav ul{
+    float: right; 
+    margin: -32px 10px;
+    padding: 0px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.hero{
+    height: 500px;
+}
