@@ -1,5 +1,5 @@
 
-nav{
+.nav{
     background-color: rgb(23, 38, 58);
     height: 50px;
     width: 100%;
@@ -9,20 +9,24 @@ nav{
     padding: 0px;
     border-top: #fff;
 }
+
 .logo{
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 30px;
     margin: 0px 0px 0px 0px ;
     float: left;
     clear: both;
 }
-nav h1{
+.h1{
     font-size: 40px;
     font-style: normal;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
     text-transform: uppercase;
-    color: #967245;
+    color: #000000;
+    text-shadow:1px 2px rgb(218, 208, 208); 
+    text-align: center;
+}
+.h-text{
+    font-size: 25px;
+    text-align: center;
 }
 nav ul{
     float: right; 
@@ -34,6 +38,60 @@ nav ul li{
     display: inline-block;
     text-transform: uppercase;
 }
-.hero{
-    height: 500px;
+.hero-text{
+    width: 600px;
+    color: #000000;
+    text-shadow:1px 1px rgb(218, 208, 208); 
 }
+
+.education{
+    height: 800px;
+}
+.parallax {
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax-1 {
+    background-image: url(/MFW-Final-Project/IMG/20211105_124722.jpg);
+  }
+  .parallax-2{
+      background-image: url(/MFW-Final-Project/IMG/Resized_20200407_180035.jpeg);
+  }
+  .parallax-3{
+      background-image: url(/MFW-Final-Project/IMG/jon-tyson-QL0FAxaq2z0-unsplash.jpg);
+      /* Photo by Jon Tyson on Unsplash */
+  }
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #967245; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  
+  input[type=submit] {
+    background-color: #967245;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #967245;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #816037;
+  }
+  
+  .contact-con {
+    border-radius: 5px;
+    background-color: #9ea0a3;
+    padding: 20px;
+    color: #967245;
+    border: 1px solid #967245;
+  }
