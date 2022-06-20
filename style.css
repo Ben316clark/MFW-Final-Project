@@ -38,14 +38,35 @@ nav ul li{
     display: inline-block;
     text-transform: uppercase;
 }
+.hero-con{
+  height: 800px;
+}
 .hero-text{
     width: 600px;
     color: #000000;
     text-shadow:1px 1px rgb(218, 208, 208); 
 }
 
+
 .education{
-    height: 800px;
+    height: 1600px;
+}
+.job{
+  font-size: 60px;
+  text-align: center;
+  color: rebeccapurple;
+}
+.edheader{
+  text-align: center;
+  color: #000000;
+  text-shadow: 1px 1px white;
+  font-size: 60px
+}
+.edpara{
+  text-align: center;
+  color: #000000;
+  text-shadow: 1px 1px white;
+  font-size: 30px;
 }
 .parallax {
     min-height: 800px;
@@ -64,10 +85,15 @@ nav ul li{
       background-image: url(/MFW-Final-Project/IMG/jon-tyson-QL0FAxaq2z0-unsplash.jpg);
       /* Photo by Jon Tyson on Unsplash */
   }
+  
+  .USU{
+    font-size: 30px;
+    color: rgb(16, 16, 143);
+  }
   input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
-    border: 1px solid #967245; /* Gray border */
+    border: 1px solid #0a0a0a; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
@@ -75,23 +101,10 @@ nav ul li{
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
     
   }
-  
-  input[type=submit] {
-    background-color: #967245;
-    color: white;
-    padding: 12px 20px;
-    border: 1px solid #967245;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  input[type=submit]:hover {
-    background-color: #816037;
-  }
-  
   .contact-con {
     border-radius: 5px;
-    background-color: #9ea0a3;
+    background-color: #3e3f41;
     padding: 20px;
-    color: #967245;
-    border: 1px solid #967245;
+    color: #fff;
+    border: 1px solid #000;
   }
