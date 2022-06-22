@@ -46,8 +46,19 @@ nav ul li{
     color: #000000;
     text-shadow:1px 1px rgb(218, 208, 208); 
 }
+.footer{
+  background-color: #3e3f41;
+  height:"500px"
+}
+.footer-list{
+  list-style: none;
+}
 
+.address{
+  color: #fff;
+  
 
+}
 .education{
     height: 1600px;
 }
