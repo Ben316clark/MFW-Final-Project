@@ -27,6 +27,7 @@
 .h-text{
     font-size: 25px;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 nav ul{
     float: right; 
@@ -39,25 +40,35 @@ nav ul li{
     text-transform: uppercase;
 }
 .hero-con{
-  height: 800px;
+  height: 600px;
+}
+.ed-con{
+  height: 200px;
+}
+.accord-con{
+  height: 1500px;
+}
+.main-color{
+  color: rgb(45, 54, 179);
 }
 .hero-text{
     width: 600px;
     color: #000000;
-    text-shadow:1px 1px rgb(218, 208, 208); 
+    text-shadow:1px 1px rgb(255, 255, 255); 
+    background-color: rgba(248, 244, 244, 0.158);
+    border-radius: 10px;
 }
 .footer{
   background-color: #3e3f41;
-  height:"500px"
+  height: 300px;
 }
 .footer-list{
   list-style: none;
 }
-
 .address{
   color: #fff;
-  
-
+  font-family: 'Cormorant Garamond', serif;
+  font-size: large;
 }
 .education{
     height: 1600px;
@@ -65,11 +76,9 @@ nav ul li{
 .job{
   font-size: 60px;
   text-align: center;
-  color: rebeccapurple;
 }
 .edheader{
   text-align: center;
-  color: #000000;
   text-shadow: 1px 1px white;
   font-size: 60px
 }
@@ -89,18 +98,10 @@ nav ul li{
   .parallax-1 {
     background-image: url(/MFW-Final-Project/IMG/20211105_124722.jpg);
   }
-  .parallax-2{
-      background-image: url(/MFW-Final-Project/IMG/Resized_20200407_180035.jpeg);
-  }
-  .parallax-3{
-      background-image: url(/MFW-Final-Project/IMG/jon-tyson-QL0FAxaq2z0-unsplash.jpg);
-      /* Photo by Jon Tyson on Unsplash */
-  }
-  
   .USU{
     font-size: 30px;
-    color: rgb(16, 16, 143);
   }
+  table{ overflow: auto;}
   input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 

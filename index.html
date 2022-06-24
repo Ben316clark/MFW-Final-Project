@@ -6,7 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/63e7380ffe.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/63e7380ffe.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Roboto+Mono:wght@300&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="/MFW-Final-Project/style.css">
   <title>MFW-Final Project</title>
 </head>
@@ -22,23 +27,23 @@
     <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
       <ul class="navbar-nav d-flex  ">
         <li class="nav-item ">
-          <a class="nav-link " href="#">About</a>
+          <a class="nav-link " href="#About">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
+          <a class="nav-link" href="#Education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Content</a>
+          <a class="nav-link" href="#Content">Content</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#Contact">Contact</a>
         </li>
     </div>
     </li>
     </ul>
     </div>
   </nav>
-  <section class="hero-section parallax parallax-1 ">
+  <section id="About" class="hero-section parallax parallax-1 ">
     <div class="container hero-con d-flex align-items-center justify-content-center">
       <div class="row  ">
         <div class="hero-text  col-9  ">
@@ -50,23 +55,24 @@
         </div>
       </div>
   </section>
-  <Section class="education parallax ">
-    <h2 class="edheader">Education/Jobs</h2>
-    <div class="container ">
+  <Section id="Education" class="education parallax ">
+    <h2 class="edheader main-color mt-5">Education/Jobs</h2>
+    <div class="container ed-con">
       <div class="row d-flex justify-content-center">
         <div class="edpara col-9 ">Listed below is my educational background, my achievements, my jobs, and experiences
           that have shaped me into the self-starting hard-worker that I am today.</div>
       </div>
     </div>
-    <div class="container  ">
+    <div class="container mt-5 ">
       <div class="row   ">
         <div class="col-4 ">
           <div class="row    ">
             <div class="col-6  d-flex justify-content-center"><i class="fa-solid fa-graduation-cap cap fa-6x"></i></div>
             <div class="col-6 ">
               <div class="row   ">
-                <div class="col-6 w-100 h-50  USU"> Utah State University </div>
-                <div class="col-6 w-100 h-50  EJPara"> I graduated Magna Cum Laude from Utah State in 2020 with a degree in Dietetics, where I was able to accomplish a university GPA of 3.9
+                <div class="col-6 w-100 h-50  USU main-color "> Utah State University </div>
+                <div class="col-6 w-100 h-50  EJPara"> I graduated Magna Cum Laude from Utah State in 2020 with a degree
+                  in Dietetics, where I was able to accomplish a university GPA of 3.9
                 </div>
               </div>
             </div>
@@ -77,8 +83,9 @@
             <div class="col-6  d-flex justify-content-center"><i class="fa-solid fa-computer fa-6x"></i> </div>
             <div class="col-6 ">
               <div class="row   ">
-                <div class="col-6 w-100 h-50  USU"> Bitwise </div>
-                <div class="col-6 w-100 h-50  EJPara"> I have taken two classes through bitwise, giving me a background of html and css knowledge, I will continue on to take JavaScript and 
+                <div class="col-6 w-100 h-50 main-color USU"> Bitwise </div>
+                <div class="col-6 w-100 h-50  EJPara"> I have taken two classes through bitwise, giving me a background
+                  of html and css knowledge, I will continue on to take JavaScript and
                 </div>
               </div>
             </div>
@@ -89,8 +96,9 @@
             <div class="col-6 d-flex justify-content-center"><i class="fa-solid fa-house fa-6x"></i> </div>
             <div class="col-6 ">
               <div class="row   ">
-                <div class="col-6 w-100 h-50  USU"> Buchanan Highschool </div>
-                <div class="col-6 w-100 h-50  EJPara"> I graduated from Buchanan Highschool in 2014 with a 3.5 GPA and took 7 AP courses to help aid in college applications
+                <div class="col-6 w-100 h-50  USU main-color"> Buchanan Highschool </div>
+                <div class="col-6 w-100 h-50  EJPara"> I graduated from Buchanan Highschool in 2014 with a 3.5 GPA and
+                  took 7 AP courses to help aid in college applications
                 </div>
               </div>
             </div>
@@ -98,9 +106,10 @@
         </div>
       </div>
     </div>
+    <div class="container">
     <table class="table caption-top table-dark table-striped table-active ">
       <caption class="col=12 text center">
-        <H4 class="job">Jobs</H4>
+        <H4 class="job main-color">Jobs</H4>
       </caption>
       <thead class="table-primary">
         <tr>
@@ -145,7 +154,7 @@
           <th scope="row">Re/Max Advantage</th>
           <th scope="row">04/2020-01/2021</th>
         </tr>
-        
+
         <tr>
           <th scope="row">Merchandiser</th>
           <th scope="row">Admiral Beverage Company</th>
@@ -183,89 +192,118 @@
         </tr>
       </tbody>
     </table>
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            ServSafe Management Certificate
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body bg-dark text-white">
-            I hold a certificate of management for food service establishments. This certificate shows that I have shown understanding of the practices and procedures to run a safe food service environment. The main points of the certificate are in place to ensure that food-borne illness is not created in the industry and how to manage the employees to ensure that they know these techniques and implement them daily. 
+  </div>
+    <div class="container accord-con">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button bg-secondary text-white" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              ServSafe Management Certificate
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-dark text-white">
+              I hold a certificate of management for food service establishments. This certificate shows that I have
+              shown understanding of the practices and procedures to run a safe food service environment. The main
+              points of the certificate are in place to ensure that food-borne illness is not created in the industry
+              and how to manage the employees to ensure that they know these techniques and implement them daily.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Texas Real Estate License
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body bg-dark text-white">
-           I held a Texas Real Estate License for 2 years, and although I don't currently have it active, I do still have the knowledge that the process brought me and the skills that a career in Real Estate brings. This experience brought me a ton of confidence in my ability to sell and market to others, while being a self-starter and creating business for myself by finding avenues that might not be used as often. 
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Texas Real Estate License
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-dark text-white">
+              I held a Texas Real Estate License for 2 years, and although I don't currently have it active, I do still
+              have the knowledge that the process brought me and the skills that a career in Real Estate brings. This
+              experience brought me a ton of confidence in my ability to sell and market to others, while being a
+              self-starter and creating business for myself by finding avenues that might not be used as often.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            CA and TX Substitute Teaching Credentials 
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body bg-dark text-white">
-           I hold credentials in Texas and California to allow me to be a substitute teacher. I specifically have worked in three districts, Lewisville ISD, Clovis Unified, and Fresno Unified. I used these credentials in order to gain experience in the classroom and cultivate my skills as a leader and teacher of others. These skills are valuable not only for teachers, but understanding how others learn allows you to be more effective in other career areas. When either working on or leading a team, knowing how to approach new topics with others is an important skill.  
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              CA and TX Substitute Teaching Credentials
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-dark text-white">
+              I hold credentials in Texas and California to allow me to be a substitute teacher. I specifically have
+              worked in three districts, Lewisville ISD, Clovis Unified, and Fresno Unified. I used these credentials in
+              order to gain experience in the classroom and cultivate my skills as a leader and teacher of others. These
+              skills are valuable not only for teachers, but understanding how others learn allows you to be more
+              effective in other career areas. When either working on or leading a team, knowing how to approach new
+              topics with others is an important skill.
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </Section>
-  <section class="content parallax ">
-    <Section class=" parallax ">
-      <h2 class="edheader">Portfolio of Work</h2>
+  </section>
+  <section id="Content" class="content parallax ">
+    <div class="container "> 
+      <h2 class="edheader main-color">Portfolio of Work</h2>
       <div class="container ">
         <div class="row d-flex justify-content-center">
-          <div class="edpara col-9 mb-5 ">Below is a collection of my work and achievements as well as work that is in the process of being made </div>
+          <div class="edpara col-9 mb-5 ">Below is a collection of my work and achievements as well as work that is in
+            the process of being made </div>
         </div>
       </div>
       <div class="container  ">
         <div class="row mb-5  ">
           <div class="col-4 ">
             <div class="row    ">
-              <div class="col-6  d-flex justify-content-center"><img src="/MFW-Final-Project/IMG/Tailored-screenshot.jpg " height="auto" width="100rem" alt="Screenshot from Website Tailored"></div>
+              <div class="col-6  d-flex justify-content-center"><img
+                  src="/MFW-Final-Project/IMG/Tailored-screenshot.jpg " height="auto" width="150rem"
+                  alt="Screenshot from Website Tailored"></div>
+                  <a href="https://ben316clark.github.io/Final-Project-W4B/">
               <div class="col-6 ">
                 <div class="row   ">
-                  <div class="col-6 w-100 h-50  USU"> Tailored </div>
-                  <div class="col-6 w-100 h-50  EJPara"> Tailored is my first website I have created for my class at bitwise. It's a work in progress and a bit of a passion project. 
+                  <div class="col-6 w-100 h-50  USU main-color"> Tailored </div>
+                  <div class="col-6 w-100 h-50  EJPara"> Tailored is my first website I have created for my class at
+                    bitwise. It's a work in progress and a bit of a passion project.
                   </div>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
           <div class="col-4 ">
             <div class="row    ">
-              <div class="col-6  d-flex justify-content-center"><img src="/MFW-Final-Project/IMG/Fluoride-screenshot.jpg" height="auto" width="100rem" alt=""> </div>
-              <div class="col-6 ">
+              <div class="col-6  d-flex justify-content-center"><img
+                  src="/MFW-Final-Project/IMG/Fluoride-screenshot.jpg" height="auto" width="150rem" alt="Screenshot of website that holds the fact sheet"> </div>
+             <a href="https://extension.usu.edu/nutrition/research/fluoride-from-birth-to-adolescence"> <div class="col-6 ">
                 <div class="row   ">
-                  <div class="col-6 w-100 h-50  USU"> Fluoride Fact Sheet</div>
-                  <div class="col-6 w-100 h-50  EJPara"> During my undergraduate studies, I had the opportunity to write and publish a fact sheet with a peer and faculty. It was a great experience and one of my proudest moments in college.  
+                  <div class="col-6 w-100 h-50  USU main-color"> Fluoride Fact Sheet</div>
+                  <div class="col-6 w-100 h-50  EJPara"> During my undergraduate studies, I had the opportunity to write
+                    and publish a fact sheet with a peer and faculty. It was a great experience and one of my proudest
+                    moments in college.
                   </div>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
           <div class="col-4 ">
             <div class="row    ">
-              <div class="col-6 d-flex justify-content-center"> </div>
-              <div class="col-6 ">
+              <div class="col-6 d-flex justify-content-center"><img src="/MFW-Final-Project/IMG/Screenshot (7).png" height="auto" width="150rem" alt="Screenshot from this website"> </div>
+              <a href="#"> <div class="col-6 ">
                 <div class="row   ">
-                  <div class="col-6 w-100 h-50  USU"> My Portfolio </div>
-                  <div class="col-6 w-100 h-50  EJPara"> This site we are currently on, is hand coded by myself using bootstrap methods in HTML as the second project within the bitwise courses I have taken. 
+                  <div class="col-6 w-100 h-50  USU main-color"> My Portfolio </div>
+                  <div class="col-6 w-100 h-50  EJPara"> This site we are currently on, is hand coded by myself using
+                    bootstrap methods in HTML as the second project within the bitwise courses I have taken.
                   </div>
                 </div>
-              </div>
+              </div> </a>
             </div>
           </div>
         </div>
@@ -274,116 +312,125 @@
         <div class="col-4 ">
           <div class="row    ">
             <div class="col-6  d-flex justify-content-center"><i class="fa-solid fa-lock fa-6x"></i></div>
-            <div class="col-6 ">
+            <a href="#"> <div class="col-6 ">
               <div class="row   ">
-                <div class="col-6 w-100 h-50  USU"> Coming Soon</div>
+                <div class="col-6 w-100 h-50  USU main-color"> Coming Soon</div>
                 <div class="col-6 w-100 h-50  EJPara"> My Next projects will be here
                 </div>
               </div>
-            </div>
+            </div> </a>
           </div>
         </div>
         <div class="col-4 ">
           <div class="row    ">
             <div class="col-6  d-flex justify-content-center"><i class="fa-solid fa-lock fa-6x"></i> </div>
-            <div class="col-6 ">
-              <div class="row   ">
-                <div class="col-6 w-100 h-50  USU"> Coming Soon</div>
+            <a href="#"> <div class="col-6 ">
+            <div class="row   ">
+                <div class="col-6 w-100 h-50  USU main-color"> Coming Soon</div>
                 <div class="col-6 w-100 h-50  EJPara"> My Next projects will be here
                 </div>
               </div>
-            </div>
+            </div></a>
           </div>
         </div>
         <div class="col-4 ">
           <div class="row    ">
             <div class="col-6 d-flex justify-content-center"><i class="fa-solid fa-lock fa-6x"></i> </div>
-            <div class="col-6 ">
+            <a href="#"><div class="col-6 ">
               <div class="row   ">
-                <div class="col-6 w-100 h-50  USU"> Coming Soon </div>
-                <div class="col-6 w-100 h-50  EJPara"> My Next projects will be here 
+                <div class="col-6 w-100 h-50  USU main-color"> Coming Soon </div>
+                <div class="col-6 w-100 h-50  EJPara"> My Next projects will be here
                 </div>
               </div>
+            </div></a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </section>
+    <section id="Contact" class="contact parallax parallax-1 d-flex align-items-center">
+      <div class="container contact-con  ">
+        <div class="container ">
+          <div class="row">
+            <div class="col-12">
+              <form action="">
+                <fieldset>
+                  <div class="mb-3">
+                    <label for="inputEmail" class="form-label">First Name</label>
+                    <input type="text" class="form-control" placeholder="Your first name..." id="inputPassword">
+                  </div>
+                  <div class="mb3">
+                    <label for="textarea" class="form-label">Last Name</label>
+                    <input class="form-control" id="textarea" placeholder="Your last name... ">
+                  </div>
+                  <div class="mb3">
+                    <label for="textarea" class="form-label">Email Address</label>
+                    <input class="form-control" id="textarea" placeholder="Your email address...">
+                  </div>
+                  <div class="mb3">
+                    <label for="textarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="textarea1" rows="3">What are you thinking?</textarea>
+                  </div>
+                  <div class="col-auto d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                  </div>
+                </fieldset>
+              </form>
+
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="contact parallax parallax-1 d-flex align-items-center">
-    <div class="container contact-con  ">
-      <div class="container ">
+    </section>
+    <footer>
+      <div class="container-foot footer">
         <div class="row">
-          <div class="col-12">
-            <form action="">
-              <fieldset>
-                <div class="mb-3">
-                  <label for="inputEmail" class="form-label">First Name</label>
-                  <input type="text" class="form-control" placeholder="Your first name..." id="inputPassword">
-                </div>
-                <div class="mb3">
-                  <label for="textarea" class="form-label">Last Name</label>
-                  <input class="form-control" id="textarea" placeholder="Your last name... ">
-                </div>
-                <div class="mb3">
-                  <label for="textarea" class="form-label">Email Address</label>
-                  <input class="form-control" id="textarea" placeholder="Your email address...">
-                </div>
-                <div class="mb3">
-                  <label for="textarea1" class="form-label">Message</label>
-                  <textarea class="form-control" id="textarea1" rows="3">What are you thinking?</textarea>
-                </div>
-                <div class="col-auto d-flex justify-content-center">
-                  <button type="submit" class="btn btn-primary mb-3">Submit</button>
-                </div>
-              </fieldset>
-            </form>
-           
+          <div class="column d-inline-flex justify-content-center">
+            <ul class="d-flex footer-list">
+              <li class="nav-item ">
+                <a class="nav-link " href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Content">Content</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
           </div>
         </div>
+        <div class="address d-flex justify-content-center ms-4"> 1325 4th St. Apt. 2 Clovis, CA, 93612 USA </div>
+        <div class="row mt-3">
+          <div class="column d-inline-flex justify-content-center">
+            <ul class="footer-list d-flex">
+              <li class=""><a href="https://www.instagram.com/bclark316/?hl=en" target="_blank"> <img
+                    src="/MFW-Final-Project/IMG/5279112_camera_instagram_social media_instagram logo_icon.png"
+                    alt="Instagram Logo"></a></li>
+              <li><a href="https://twitter.com/home?lang=en"> <img src="/MFW-Final-Project/IMG/5279123_tweet_twitter_twitter logo_icon.png" target="_blank" alt="Twitter Logo"></a>
+              </li>
+              <li><a href="https://www.pinterest.com/ben316clark/_saved/"> <img
+                    src="/MFW-Final-Project/IMG/5279116_pin_pinterest_inspiration_pinterest logo_icon (1).png"
+                    target="_blank" alt="Pinterest Logo"></a></li>
+              <li><a href="https://www.youtube.com/channel/UCBGvLtyjOLhjrt2oiAXu-wg/videos"> <img src="/MFW-Final-Project/IMG/5279120_play_video_youtube_youtuble logo_icon.png"
+                target="_blank" alt="Youtube Logo"></a></li>
+              <li><a href="https://www.linkedin.com/in/benjamin-clark-2a95371a3/"> <img
+                    src="/MFW-Final-Project/IMG/5279114_linkedin_network_social network_linkedin logo_icon.png"
+                    target="_blank" alt="LinkedIn Logo"></a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center ms-4">
+          <img src="/MFW-Final-Project/IMG/Clark(2).png" alt="">
+        </div>
       </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container-foot footer">
-      <div class="row"> 
-        <div class="column d-inline-flex justify-content-center">
-      <ul class="d-flex footer-list">
-      <li class="nav-item ">
-        <a class="nav-link " href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Content</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </div>
-    </div>
-    <div class="address d-flex justify-content-center ms-4"> 1325 4th St. Apt. 2 Clovis, CA, 93612 USA </div>
-    <div class="row mt-3">
-      <div class="column d-inline-flex justify-content-center">
-<ul class="footer-list d-flex">
-  <li class=""><a href="#"> <img src="/MFW-Final-Project/IMG/5279112_camera_instagram_social media_instagram logo_icon.png" alt=""></a></li>
-  <li><a href="#"> <img src="/MFW-Final-Project/IMG/5279123_tweet_twitter_twitter logo_icon.png" alt=""></a></li>
-  <li><a href="#"> <img src="/MFW-Final-Project/IMG/5279116_pin_pinterest_inspiration_pinterest logo_icon (1).png" alt=""></a></li>
-  <li><a href="#"> <img src="/MFW-Final-Project/IMG/5279120_play_video_youtube_youtuble logo_icon.png" alt=""></a></li>
-  <li><a href="#"> <img src="/MFW-Final-Project/IMG/5279114_linkedin_network_social network_linkedin logo_icon.png" alt=""></a></li>
-  
-</ul>
-      </div>
-    </div>
-    <div class="d-flex justify-content-center ms-4">
-      <img src="/MFW-Final-Project/IMG/Clark(2).png" alt="">
-    </div>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-  </script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
