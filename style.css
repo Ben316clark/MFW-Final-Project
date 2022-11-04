@@ -27,24 +27,29 @@ width: 40px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
-.navul{
-    
+
+ .navul {
+  
     margin: -32px 10px;
     padding: 0px;
-    flex-direction: row;
-    width: auto;
+    
     
 }
-.navli {
-    margin-right: 5px;
-    margin-left: 5px;
-    width: auto;
-    text-transform: uppercase;
-    padding: 2px;
+.navitemholder{
+  height: 20px;
+ width: auto;
+ float: right;
 }
+ .navli {
+    margin-right: 2px;
+    margin-left: 2px;
+    width: auto;
+   
+    padding: 2px; 
+ } 
 .navvl{
   border-right: 1px solid black;
-  
+
  
 }
 .navbubble:hover{
@@ -64,7 +69,7 @@ width: 40px;
   color: #2d36b3;
 }
 .hero-text{
-    width: 600px;
+    width: auto;
     color: #000000;
     text-shadow:1px 1px rgb(255, 255, 255); 
     background-color: rgba(248, 244, 244, 0.158);
