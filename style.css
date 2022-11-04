@@ -1,9 +1,8 @@
 
-.nav{
-    background-color: rgb(23, 38, 58);
+.navstyle{
+    background-color: rgb(205, 207, 209);
     height: 50px;
     width: 100%;
-    position: sticky;
     margin: 0px;
     top: 0px;
     padding: 0px;
@@ -13,8 +12,7 @@
 .logo{
     padding: 0px 0px 0px 30px;
     margin: 0px 0px 0px 0px ;
-    float: left;
-    clear: both;
+width: 40px;
 }
 .h1{
     font-size: 40px;
@@ -29,27 +27,41 @@
     text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
-nav ul{
-    float: right; 
+.navul{
+    
     margin: -32px 10px;
     padding: 0px;
+    flex-direction: row;
+    width: auto;
+    
 }
-nav ul li{
-    list-style: none;
-    display: inline-block;
+.navli {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: auto;
     text-transform: uppercase;
+    padding: 2px;
+}
+.navvl{
+  border-right: 1px solid black;
+  
+ 
+}
+.navbubble:hover{
+  background-color:rgba(45, 54, 179, 0.678) ;
+  border-radius: 8px;
+ 
+  
 }
 .hero-con{
   height: 600px;
 }
-.ed-con{
-  height: 200px;
+.accordion{
+  border-radius: 10px;
 }
-.accord-con{
-  height: 1500px;
-}
+
 .main-color{
-  color: rgb(45, 54, 179);
+  color: #2d36b3;
 }
 .hero-text{
     width: 600px;
@@ -70,9 +82,24 @@ nav ul li{
   font-family: 'Cormorant Garamond', serif;
   font-size: large;
 }
-.education{
-    height: 1600px;
+.backgroundofcontent{
+    height: fit-content;
+    width: 95vw;
+    background-color: #ffffffb9;
+    border-radius: 10px;
+    margin-bottom: 20px;
     
+}
+.divfixer{
+  text-align: center;
+  width: 95vw;
+  margin-left: 2.5%;
+}
+.content{
+  height: fit-content;
+  background-color: #ffffffb9;
+  border-radius: 10px;
+  margin: 20px;
 }
 .job{
   font-size: 60px;
@@ -89,6 +116,9 @@ nav ul li{
   text-shadow: 1px 1px white;
   font-size: 30px;
 }
+.Edimages{
+  width: 100%;
+}
 .parallax {
     min-height: 800px;
     background-attachment: fixed;
@@ -102,22 +132,26 @@ nav ul li{
   .USU{
     font-size: 30px;
   }
-  table{ overflow: auto;}
+  table{ height: fit-content ;
+    
+border-radius: 10px;
+  }
   input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #0a0a0a; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #0a0a0a; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
     
   }
   .contact-con {
-    border-radius: 5px;
-    background-color: #3e3f41;
+    border-radius: 10px;
+    background-color:#fff;
     padding: 20px;
     color: #fff;
     border: 1px solid #000;
+    margin-bottom: 20px;
   }
