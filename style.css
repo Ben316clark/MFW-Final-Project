@@ -23,7 +23,7 @@
 .hero-con{
   height: auto;
   margin-bottom: 20px;
-  margin-top: auto;
+  padding-top: 35px;
 }
 .accordion{
   border-radius: 10px;
@@ -92,7 +92,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: auto;
   }
   .parallax-1 {
     background-image: url(/MFW-Final-Project/IMG/20211105_124722.jpg);
